@@ -12,7 +12,7 @@ export default function AuthComponent() {
   useEffect(() => {
     const configuration = {
       method: "get",
-      url: "http://localhost:8000/auth-endpoint",
+      url: "http://ec2-54-199-162-177.ap-northeast-1.compute.amazonaws.com:8000/auth-endpoint",
       headers: {
         Authorization: `Bearer ${token}`,
       },
