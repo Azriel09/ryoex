@@ -59,7 +59,7 @@ export default function SignInSide() {
 
     const configuration = {
       method: "post",
-      url: "http://ec2-54-199-162-177.ap-northeast-1.compute.amazonaws.com:8000/login",
+      url: "/api/login",
       data: {
         email,
         password,
