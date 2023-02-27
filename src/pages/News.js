@@ -10,7 +10,7 @@ export function News() {
 
   useEffect(() => {
     fetch(
-      "http://ec2-54-199-162-177.ap-northeast-1.compute.amazonaws.com:443/news"
+      "https://ec2-54-199-162-177.ap-northeast-1.compute.amazonaws.com:8000/news"
     )
       .then((res) => res.json(res))
       .then((data) => {
