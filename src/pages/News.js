@@ -3,7 +3,6 @@ import "../components/css/news.css";
 import Newscardleft from "../components/Newscard-left";
 import Newscardright from "../components/Newscard-right";
 import Footer from "../components/Footer";
-import fetch from "node-fetch";
 export function News() {
   const [news1, setNews1] = useState([]);
   const [news2, setNews2] = useState([]);
