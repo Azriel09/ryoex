@@ -10,7 +10,7 @@ export default function FreeComponent() {
     // set configurations for the API call here
     const configuration = {
       method: "get",
-      url: "http://ec2-54-199-162-177.ap-northeast-1.compute.amazonaws.com:8000/free-endpoint",
+      url: "/api/free-endpoint",
     };
 
     // make the API call
