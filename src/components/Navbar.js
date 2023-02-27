@@ -45,7 +45,7 @@ function Navigation() {
   const loadProfile = () => {
     const configuration = {
       method: "get",
-      url: "http://ec2-54-199-162-177.ap-northeast-1.compute.amazonaws.com:8000/account",
+      url: "/api/account",
       headers: {
         Authorization: `Bearer ${token}`,
       },
