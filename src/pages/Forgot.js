@@ -25,7 +25,7 @@ export default function Forgot() {
 
     const configuration = {
       method: "post",
-      url: "http://ec2-54-199-162-177.ap-northeast-1.compute.amazonaws.com:8000/forgot",
+      url: "/api/forgot",
       data: {
         email,
       },
