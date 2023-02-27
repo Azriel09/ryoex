@@ -95,7 +95,7 @@ export default function CurrencyTable() {
     });
     const configuration = {
       method: "get",
-      url: "http://ec2-54-199-162-177.ap-northeast-1.compute.amazonaws.com:8000/auth-endpoint",
+      url: "/api/auth-endpoint",
       headers: {
         Authorization: `Bearer ${token}`,
         currency: lists,
@@ -117,7 +117,7 @@ export default function CurrencyTable() {
 
     const configuration = {
       method: "get",
-      url: "http://ec2-54-199-162-177.ap-northeast-1.compute.amazonaws.com:8000/auth-endpoint",
+      url: "/api/auth-endpoint",
       headers: {
         Authorization: `Bearer ${token}`,
         currency: lists,
@@ -135,7 +135,7 @@ export default function CurrencyTable() {
   useEffect(() => {
     const configuration = {
       method: "get",
-      url: "http://ec2-54-199-162-177.ap-northeast-1.compute.amazonaws.com:8000/dashboard",
+      url: "/api/dashboard",
       headers: {
         Authorization: `Bearer ${token}`,
       },
